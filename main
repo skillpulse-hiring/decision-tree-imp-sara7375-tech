@@ -23,24 +23,3 @@ t.fit(a,c)
 p=t.predict(b)
 
 print("something:",p)
-
-print("acc = ",accuracy_score(d,p))
-
-for i in range(len(p)):
-    print("pred",i,"=",p[i])
-
-q=[[100,200]]
-
-r=t.predict(q)
-
-print("new thing prediction maybe idk =",r)
-
-# useless variables
-abc=5
-kkkk="tree"
-tttttt=True
-
-if tttttt==True:
-    print("doneeeee")
-else:
-    print("not done")
